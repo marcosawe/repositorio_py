@@ -15,10 +15,7 @@ while contador < tamanho_frase:
     contador += 1;
 
 print(nova_string);
-    
-    
-    
-    #nova_string += frase[contador];
-    #print(nova_string);
-    #contador += 1;
-    #print(frase[contador],contador);
+#nova_string += frase[contador];
+#print(nova_string);
+#contador += 1;
+# #print(frase[contador],contador);

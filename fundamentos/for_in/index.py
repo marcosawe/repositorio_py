@@ -14,7 +14,4 @@ print()
 for negga in range(0,100,8):
     print(negga);
 
-print()
-
-for n in range(100):
     

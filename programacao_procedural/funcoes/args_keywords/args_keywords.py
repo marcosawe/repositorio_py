@@ -10,4 +10,22 @@ func(1,2,10)
 def funcao(*args):
     print(*args)
 
-lista = []
+lista = [1,2,3,4,5]
+print(*lista, sep="_") #printa os argumentos dentro da lista separando por "_"
+
+# **keyargs Busca argumentos nomeados dentro de uma função. Como se fosse um dicionário
+
+"""def funci(*args,**keyargs):
+    print(args);
+    print(keyargs["nome"], keyargs["Sobrenome"]);
+
+funci(*lista,nome= "Luiz", Sobrenome="Alberto")""" 
+
+def funci(*args,**keyargs): #forma mais moderna.
+    print(args);
+
+    nome = keyargs.get("nome");
+    sobrenome = keyargs.get("sobrenome")
+    print(nome, sobrenome);
+
+funci(nome="Marcos Eduardo Fernandes",sobrenome="Domingues");

@@ -53,5 +53,50 @@ for valor in dicionario.values(): # Iterando sobre valores
 
 print("################")
 
-for k in dicionario.items():
-    print(k);
+# Iterando sobre o conjunto chave valor.
+for k,v in dicionario.items():
+    print(k,v);
+
+# Adicionando dicionários dentro de dicionários:
+clientes={
+    "cliente1":{
+        "Nome":"Marcos Eduardo Fernandes",
+        "Sobrenome":"Domingues",
+        "Idade": 17,
+        "Altura": 1.80
+    },
+    "Cliente2":{
+        "Nome":"José Arnaldo",
+        "Sobrenome":"Medeiros",
+        "Idade": 70,
+        "Altura": 1.80
+    }    
+}
+# Iterando sobre dicionários dentro de dicionários
+for clientes_k,clientes_v in clientes.items():
+    print(f'Exibindo as chaves {clientes_k}');
+    for dados_k,dados_i in clientes_v.items():
+        print(f'\t{dados_k}={dados_i}');
+
+# Para se fazer uma cópia rasa (Shallow Copy) de um dicionário utilizamos:
+d12 = {1:'João',4.9:"Vinicius13",56:"pãoo"}
+copia = d12.copy()
+print(copia)
+print("################")
+# Para fazer uma cópia real de um dicionário utilizamos importações de módulo:
+import copy
+copia2 = copy.deepcopy(d12);
+print(d12)
+print(copia2)
+
+# Para fazer casting em dicionários utilizamos (funciona com listas e tuplas.)
+lista = [ 
+    ["lista1",231],
+    ["lista2",884],
+    ["lista3",15],
+    ["lista4",34],
+]
+lista1 = dict(lista)
+print(lista1)
+
+# Para adiconar 

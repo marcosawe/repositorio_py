@@ -88,7 +88,7 @@ import copy
 copia2 = copy.deepcopy(d12);
 print(d12)
 print(copia2)
-
+print('######################################')
 # Para fazer casting em dicionários utilizamos (funciona com listas e tuplas.)
 lista = [ 
     ["lista1",231],
@@ -98,5 +98,17 @@ lista = [
 ]
 lista1 = dict(lista)
 print(lista1)
+print('######################################')
 
-# Para adiconar 
+# Para remover um produto chave valor de um dicionário
+print(lista1);
+lista1.pop("lista1");
+print(lista1);
+
+# Para eliminar o ultimo item dentro de um dicionário utilizamos
+lista1.popitem()
+print(lista1);
+print('######################################')
+# Para concatenar dois dicionários utilizamos
+d12.update(lista1);
+print(d12);

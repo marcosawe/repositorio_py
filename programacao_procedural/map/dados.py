@@ -1,15 +1,14 @@
 # Faz um mapeamento de dados
-
 produtos = [
-    {'Produto':'p1'},{"Preço":12},
-    {'Produto':'p2'},{"Preço":12.56},
-    {'Produto':'p3'},{"Preço":132.65},
-    {'Produto':'p4'},{"Preço":12.43},
-    {'Produto':'p5'},{"Preço":34.5},
-    {'Produto':'p6'},{"Preço":27.34},
-    {'Produto':'p7'},{"Preço":31.2},
-    {'Produto':'p8'},{"Preço":112},
-    {'Produto':'p9'},{"Preço":1232.45},
+    {'Produto':'p1'},{"Preco":12},
+    {'Produto':'p2'},{"Preco":12.56},
+    {'Produto':'p3'},{"Preco":132.65},
+    {'Produto':'p4'},{"Preco":12.43},
+    {'Produto':'p5'},{"Preco":34.5},
+    {'Produto':'p6'},{"Preco":27.34},
+    {'Produto':'p7'},{"Preco":31.2},
+    {'Produto':'p8'},{"Preco":112},
+    {'Produto':'p9'},{"Preco":1232.45},
 ]
 
 pessoas = [

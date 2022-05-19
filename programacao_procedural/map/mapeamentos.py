@@ -27,3 +27,8 @@ def mul (i):
 
 x=map (mul, (3, 5, 7, 11, 13))
 print (list (x))
+
+# Exemplos
+lista = [1, 2, 3, 4, 5, 6, 7, 8]
+lista_mapeada = map(lambda item: item * 2, lista)
+print(list(lista_mapeada))  # [2, 4, 6, 8, 10, 12, 14, 16]

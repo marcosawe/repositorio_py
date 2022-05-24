@@ -1,0 +1,1 @@
+# Um decorador em Python é um objeto que estende/modifica a funcionalidade de uma função (ou método) em tempo de execução e conceitualmente está mais próximo da anotação do Java que do decorador da orientação a objetos.
